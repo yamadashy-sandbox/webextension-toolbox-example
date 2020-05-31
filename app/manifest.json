@@ -1,33 +1,23 @@
 {
+  "manifest_version": 2,
+
   "name": "__MSG_appName__",
   "short_name": "__MSG_appShortName__",
   "description": "__MSG_appDescription__",
-  "version": "0.0.0",
-  "manifest_version": 2,
-  "default_locale": "en",
-  "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
-  },
-  "background": {
-    "scripts": [
-      "scripts/background.js"
-    ]
-  },
+
+  "version": "0.1.0",
+  "default_locale": "ja",
+  "author": "作者名",
+
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "css": [
-        "styles/contentscript.css"
+        "https://docs.google.com/spreadsheets/*/*"
       ],
       "js": [
-        "scripts/contentscript.js"
+        "scripts/content.js"
       ],
-      "run_at": "document_end",
-      "all_frames": false
+      "run_at": "document_idle"
     }
   ]
 }
