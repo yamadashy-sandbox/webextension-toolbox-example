@@ -6,8 +6,12 @@
   "description": "__MSG_appDescription__",
 
   "version": "0.1.0",
-  "default_locale": "ja",
+  "default_locale": "en",
   "author": "作者名",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
 
   "content_scripts": [
     {
