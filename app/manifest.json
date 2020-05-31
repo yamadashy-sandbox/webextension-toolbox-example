@@ -19,7 +19,7 @@
         "https://docs.google.com/spreadsheets/*/*"
       ],
       "js": [
-        "scripts/content.js"
+        "scripts/contentscript.js"
       ],
       "run_at": "document_idle"
     }
