@@ -4,8 +4,6 @@ webextension-toolbox のサンプルプロジェクトです。
 
 Qiita記事で解説しています。
 
-![](./promo/Screenshot_1280x800.png)
-
 # Development
 - Node.js v10.16.0
 
