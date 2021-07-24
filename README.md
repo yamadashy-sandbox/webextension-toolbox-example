@@ -1,29 +1,31 @@
 # webextension toolbox example
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+webextension-toolbox のサンプルプロジェクトです。
 
-## Install
+Qiita記事で解説しています。
 
-	$ npm install
+![](./promo/Screenshot_1280x800.png)
 
-## Development
+# Development
+- Node.js v10.16.0
 
-    npm run dev chrome
-    npm run dev firefox
-    npm run dev opera
-    npm run dev edge
+## Setup
+```
+$ yarn
+```
 
-## Build
+## Watch and build
+```
+yarn dev chrome
+yarn dev firefox
+yarn dev opera
+yarn dev edge
+```
 
-    npm run build chrome
-    npm run build firefox
-    npm run build opera
-    npm run build edge
-
-## Environment
-
-The build tool also defines a variable named `process.env.NODE_ENV` in your scripts. 
-
-## Docs
-
-* [webextension-toolbox](https://github.com/HaNdTriX/webextension-toolbox)
+## Build extension
+```
+yarn build chrome
+yarn build firefox
+yarn build opera
+yarn build edge
+```

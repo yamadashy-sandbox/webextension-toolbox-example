@@ -1,33 +1,30 @@
 {
+  "manifest_version": 2,
+
   "name": "__MSG_appName__",
   "short_name": "__MSG_appShortName__",
   "description": "__MSG_appDescription__",
-  "version": "0.0.0",
-  "manifest_version": 2,
+
+  "version": "0.1.0",
   "default_locale": "en",
+  "author": "作者名",
   "icons": {
     "16": "images/icon-16.png",
     "128": "images/icon-128.png"
   },
-  "background": {
-    "scripts": [
-      "scripts/background.js"
-    ]
-  },
+
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "css": [
-        "styles/contentscript.css"
+        "https://qiita.com/*"
       ],
       "js": [
         "scripts/contentscript.js"
       ],
-      "run_at": "document_end",
-      "all_frames": false
+      "css": [
+        "styles/contentscript.css"
+      ],
+      "run_at": "document_start"
     }
   ]
 }
