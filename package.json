@@ -4,7 +4,8 @@
   "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   "scripts": {
     "dev": "webextension-toolbox dev",
-    "build": "webextension-toolbox build"
+    "build": "webextension-toolbox build",
+    "archive": "git archive HEAD -o source.zip"
   },
   "devDependencies": {
     "webextension-toolbox": "latest"
